@@ -1,0 +1,14 @@
+Libraries:
+
+amap
+vcd
+gplots
+WriteXLS
+xtable
+
+source("http://bioconductor.org/biocLite.R")
+biocLite(c("amap", "vcd", "gplots", "WriteXLS", "xtable"))
+
+
+Actually, we may only need: CDRUG_cgp_ccle.RData and ggplot2
+
