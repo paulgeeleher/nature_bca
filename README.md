@@ -1,5 +1,7 @@
 # Consistency in large pharmacogenomic studies
 
+Thanks for replicating the analysis from Geeleher, et. al...
+
 This repository contains code to reproduce the results that we reported in our Brief Communication Arising article "Consistency in large pharmacogenomic studies" (Nature). All of this code is based on the code of Haibe-Kains et al. (www.nature.com/articles/nature12831), which was released as a supplementary file that accompanied their paper (http://www.nature.com/nature/journal/v504/n7480/extref/nature12831-s2.zip).
 
 We offer two methods to reproduce our results; the first contained in the "pipeline" folder, offers absolute transparency, as it is a version of the original Haibe-Kains et al. code with the fewest possible modification and allows our results to be reproduced exactly using the modified full Haibe-Kains pipeline. Because this pipeline can be difficult to run and requires very large amounts of data to be downloaded, we also offer a simplified method to reproduce our results, contained in the folder "Simplified". This folder contain the .RData files (downloaded and created using the original pipeline) that are required to reproduce only our results, hence, using this pipeline, our results can be reproduced very easily.
