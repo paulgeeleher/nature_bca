@@ -20,7 +20,7 @@ source(file.path("CDRUG_foo.R"))
 ########################
 ## global parameters
 
-## set random seed to ensuer reproducibility of the resuls
+## set random seed to ensure reproducibility of the results
 set.seed(54321)
 
 
@@ -235,7 +235,7 @@ medianAucsCcle <- apply(auc.ccle, 2, function(vec)return(1 - median(na.omit(vec)
 
 
 ## For each drug, calculate the correlation between variance in CCLE/CGP and the correlation between the two studies.
-## Unsurprisingly, In both cases there is a significant correlation between variability and Spearman correlation between the two studies (i.e. Haibe-Kains measure of "concordance").
+## Unsurprisingly, in both cases there is a significant correlation between variability and Spearman correlation between the two studies (i.e. Haibe-Kains measure of "concordance").
 ## These results were used for figure 1(b)
 drugVarCgp <- apply(auc.cgp, 2, function(vec)return(var(na.omit(vec))))
 
@@ -262,7 +262,7 @@ cor.test(drugVarCcle, correlations.stats$auc[, "rho"], method="spearman")
 #       rho 
 # 0.8285714 
 
-## The same drugs are also tend to induce high levels of variability in both studies (result not reported in paper).
+## The same drugs also tend to induce high levels of variability in both studies (result not reported in paper).
 cor.test(drugVarCgp, drugVarCcle, method="spearman")
 # 	Spearman's rank correlation rho
 # 
