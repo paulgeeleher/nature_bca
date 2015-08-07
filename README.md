@@ -1,4 +1,4 @@
-# nature_bca
+# Consistency in large pharmacogenomic studies
 
 This repository contains code to reproduce the results that we reported in our Brief Communication Arising article "Consistency in large pharmacogenomic studies" (Nature). All of this code is based on the code of Haibe-Kains et al. (www.nature.com/articles/nature12831), which was released as a supplementary file that accompanied their paper (http://www.nature.com/nature/journal/v504/n7480/extref/nature12831-s2.zip).
 
