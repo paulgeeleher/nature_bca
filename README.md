@@ -12,8 +12,10 @@ First, clone this repository (using git) or download the files. Next, to run the
 
 Note, the R libraries ggplot2 and survcomp are required by this script. You can install these using the following R code:
 
-> source("http://bioconductor.org/biocLite.R")
-> biocLite(c("ggplot2", "survcomp"))
+```
+source("http://bioconductor.org/biocLite.R")
+biocLite(c("ggplot2", "survcomp"))
+```
 
 Note: This pipeline has been tested in R version 3.2.0.
 
