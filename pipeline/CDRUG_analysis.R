@@ -408,7 +408,7 @@ drugNames[15] <- "Paclitaxel"
 library(ggplot2)
 dat <- data.frame(x=correlations.stats$auc[, "rho"], y=drugVarCcle, Drug=drugNames, varCpg=drugVarCgp)
 pdf("fig1b_bw_1.pdf", width=7, height=5)
-ggplot(data=dat, aes(x=x, y=y)) + theme_bw() + geom_point(aes(color=varCpg), size=I(3)) + geom_text(aes(label=Drug), vjust=-.5, hjust=-.24, size=2.5, angle=15) + xlab("Correlation of AUC between CCLE and CGP") + ylab("Variance of AUC in CCLE") + scale_color_continuous(low="steelblue4",high="tomato2", name=expression(sigma^2 ~ "CPG")) + theme(legend.position=c(.1,.82))
+ggplot(data=dat, aes(x=y, y=x)) + theme_bw() + geom_point(aes(color=varCpg), size=I(3)) + geom_text(aes(label=Drug), vjust=-.5, hjust=-.24, size=2.5, angle=15) + ylab("Correlation of AUC between CCLE and CGP") + xlab("Variance of AUC in CCLE") + scale_color_continuous(low="steelblue4",high="tomato2", name=expression(sigma^2 ~ "CPG")) + theme(legend.position=c(.9,.2))
 dev.off()
 
 ## The Spearman correlation tests below show the relationship between lack of drug response (i.e. high median AUC) and lack of variability.
