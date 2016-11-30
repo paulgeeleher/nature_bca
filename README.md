@@ -1,6 +1,6 @@
 # Consistency in large pharmacogenomic studies
 
-**NOTE**: A reply to Haibe-Kains/Quackenbush "Response to 'Consistency in large pharmacogenomic studies'" is available here.
+**NOTE**: A reply to Haibe-Kains/Quackenbush "Response to 'Consistency in large pharmacogenomic studies'" will be available here soon...
 
 Thanks for replicating the analysis from Geeleher, et al...
 
