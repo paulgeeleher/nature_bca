@@ -1,4 +1,4 @@
-**NOTE**: A reply to Haibe-Kains/Quackenbush response to "Consistency in large pharmacogenomic studies" (entitled "Nilotinib: anecdotal example of consistency") is available (https://github.com/paulgeeleher/nature_bca/blob/master/Response_to_Safikhani_etal.pdf).
+**NOTE**: A reply to Haibe-Kains/Quackenbush response to "Consistency in large pharmacogenomic studies" (entitled "Safikhani et al. reply") is now available (https://github.com/paulgeeleher/nature_bca/blob/master/Response_to_Safikhani_etal.pdf).
 
 # Consistency in large pharmacogenomic studies
 
